@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2890721_xjdmttjymu.css">
+</head>
+
+<body>
+    <!-- 导航条 -->
+    <div id="header">
+        <div class="header-content">
+            <ul class="clear">
+                <li><a href="#">云服务</a></li>
+                <li><a href="#">天星数科</a></li>
+                <li><a href="#">有品</a></li>
+                <li><a href="#">小爱平台</a></li>
+                <li><a href="#">企业团购</a></li>
+                <li><a href="#">资质证照</a></li>
+                <li><a href="#">协议规定</a></li>
+                <li style="margin-right: 10%;width: 10%;"><a href="#">下载app</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注销</a></li>
+                <li><a href="#">消息通知</a></li>
+                <li style="background-color: #424242;height: 30px;transform: scale(1);"><a href="#"><i class="iconfont icon-caidan"></i>购物车(0)</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <div id="nav">
+        <!-- box01 -->
+        <div class="nav-box01">
+            <div style="width: 19%;box-sizing: border-box; padding: 15px;padding-left: 0px;">
+                <img src="./img/logo.png" alt="" width="50px">
+            </div>
+            <div style="width: 58%;">
+                <ul class="clear">
+                    <li style="width: 16%;"><a href="#">Xiaomi手机</a></li>
+                    <li style="width: 16%;"><a href="#">Redmi手机</a></li>
+                    <li><a href="#">电视</a></li>
+                    <li><a href="#">笔记本</a></li>
+                    <li><a href="#">平板</a></li>
+                    <li><a href="#">家电</a></li>
+                    <li><a href="#">路由器</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">社区</a></li>
+                </ul>
+            </div>
+            <div style="width: 21%;">
+                <input type="text" value="电视">
+                <a href="#"><i class="iconfont icon-sousuo"></i></a>
+            </div>
+        </div>
+        <!-- box02 -->
+        <div class="nav-box02 clear">
+            <!-- background: rgba(105,101,101,.6); -->
+            <div style="width: 19%; background-color: rgba(105,101,101,.6);">
+                <ul>
+                    <li><a href="#">电视<i class="iconfont icon-xiangyou2" style="margin-left: 100px;"></i></a></li>
+                    <li><a href="#">笔记本</a></li>
+                    <li><a href="#">平板</a></li>
+                    <li><a href="#">家电</a></li>
+                    <li><a href="#">路由器</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">云服务</a></li>
+                    <li><a href="#">天星数科</a></li>
+                </ul>
+            </div>
+            <div style="width: 81%;height: 325.5px">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url(./img/swiper-bg01.png) no-repeat right/cover;"></div>
+                        <div class="swiper-slide" style="background: url(./img/swiper-bg01.png) no-repeat right/cover;"></div>
+                        <div class="swiper-slide" style="background: url(./img/swiper-bg01.png) no-repeat right/cover;"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="./js/swiper.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        pagination: '.swiper-pagination',
+                        direction: 'vertical',
+                        slidesPerView: 1,
+                        paginationClickable: true,
+                        spaceBetween: 0,
+                        mousewheelControl: true,
+                        autoplay: 3000,
+                        loop: true
+                    });
+                </script>
+            </div>
+        </div>
+        <!-- box03 -->
+        <div class="nav-box03 clear" style="width: 100.4%;">
+            <div style="width: 19%;background-color: #424242;">
+                <ul class="clear" style="height: 100%;width: 100%;">
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                    <li><img src="./img/nav-box03-logo01.png" alt="" width="80%">保障服务</li>
+                </ul>
+            </div>
+            <div style="width:80%;margin-left: 1%;">
+                <img src="./img/nav-box03-logo02.jpg" alt="">
+                <img src="./img/nav-box03-logo03.png" alt="">
+                <img src="./img/nav-box03-logo03.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 中心内容 -->
+    <div id="center">
+        <div class="center-content">
+            <div class="center-box01" style="margin-top: 20px;">
+                <img src="./img/center-bg01.png" alt="" width="100%">
+            </div>
+            <div class="center-box02 clear" style="padding: 20px 0px;">
+                <h3 style="float: left;">手机</h3>
+                <a href="#" style="float: right;">查看更多<i class="iconfont icon-xiangyou2"></i></a>
+            </div>
+            <div class="center-box03 clear">
+                <div style="width: 19%;">
+                    <img src="./img/center-bg02.png" alt="" height="100%">
+                </div>
+                <div style="width: 81%;">
+                    <ul class="clear" style="display: inline-block;">
+                        <li>
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li style="margin-top: 2%;">
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li style="margin-top: 2%;">
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li style="margin-top: 2%;">
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                        <li style="margin-top: 2%;">
+                            <a href="">
+                                <img src="./img/center-phone01.png" alt="">
+                                <h3>Xiaomi 12 Pro</h3>
+                                <p>全新骁龙8｜2K AMOLED屏幕</p>
+                                <p>4999元</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
